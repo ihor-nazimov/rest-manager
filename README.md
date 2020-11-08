@@ -15,7 +15,7 @@ Of course the system assumes that any bigger group may get bored of seeing small
 
 Please fill RestManager class with appropriate data structures and implement its constructor and three public methods. You are encouraged modify other classes too (to help us test them) and add new methods at your will.
 
-public class Table
+<code>public class Table
 {
    public final int size; // number of chairs
 }
@@ -50,4 +50,4 @@ public class RestManager
    {
       // TODO
    }
-}
+}</code>
