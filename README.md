@@ -14,8 +14,8 @@ Groups may share tables, however if at the same time you have an empty table wit
 Of course the system assumes that any bigger group may get bored of seeing smaller groups arrive and get their tables ahead of them, and then decide to leave, which would mean that they abandon the queue without being served.
 
 Please fill RestManager class with appropriate data structures and implement its constructor and three public methods. You are encouraged modify other classes too (to help us test them) and add new methods at your will.
-
-<code>public class Table
+<pre><code>
+public class Table
 {
    public final int size; // number of chairs
 }
@@ -50,4 +50,5 @@ public class RestManager
    {
       // TODO
    }
-}</code>
+}
+</code></pre>
