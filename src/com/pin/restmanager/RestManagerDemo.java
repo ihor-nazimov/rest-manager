@@ -53,8 +53,12 @@ public class RestManagerDemo {
 //        restManager.onLeave();
         System.out.println(restManager);
 
-        System.out.println(restManager.lookup(cgs[9]).id);
-        System.out.println(restManager.lookup(cgs[7]).id);
-
+        Table lookupTable;
+        for (int i : new int[] {9, 7} ) {
+            lookupTable = restManager.lookup(cgs[i]);
+            System.out.printf("Client %d at table %d\n",
+                    i,
+                    lookupTable == null ? -1 : lookupTable.id);
+        }
     }
 }
