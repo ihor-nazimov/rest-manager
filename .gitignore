@@ -2,13 +2,12 @@
 ## Java
 ##############################
 .mtj.tmp/
-!*.class
-1*.jar
-!*.war
-!*.ear
-!*.nar
-!hs_err_pid*
-*.java
+*.class
+*.jar
+*.war
+*.ear
+*.nar
+hs_err_pid*
 
 ##############################
 ## Maven
@@ -38,7 +37,7 @@ gradle-app.setting
 ##############################
 ## IntelliJ
 ##############################
-!out/
+out/
 .idea/
 .idea_modules/
 *.iml
